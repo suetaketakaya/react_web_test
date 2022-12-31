@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <link rel="stylesheet" type="text/css" href="./testout.css"> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>
+            function header(){
+                $.ajax({
+                    url: "https://intromyfriend.web.app/header.html",
+                    cache: false,
+                    success: function(html){
+                        document.write(html);
+                    }
+                });
+            }
+        </script>
+        <title>Quogrty</title>
+    </head>
+    <!-- Body -->
+    <body>
+        開発中        
+        <!-- 紹介用トップ画面 -->
+        <h1>Quogrty</h1>
+        <!-- 画像表示 -->
+        <img src="./img/QuogrtyImage.jpg" alt="写真" width="384" height="260">     
+    </body> 
+</html>
